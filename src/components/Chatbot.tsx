@@ -265,9 +265,9 @@ const Chatbot: React.FC<ChatbotProps> = ({ language, onLanguageChange }) => {
         {/* Iframe Container */}
         <div className="flex-1 relative overflow-hidden">
           <iframe
-            src="https://v0-mind-care-assistant.vercel.app/chat"
+            src="https://mindcare-voice-helper.lovable.app"
             className="w-full h-full border-0 bg-white"
-            title="AI Mental Wellness Assistant"
+            title="MindCare Voice Helper"
             allow="microphone; camera; autoplay; fullscreen"
             sandbox="allow-same-origin allow-scripts allow-forms allow-popups allow-microphone allow-downloads"
             loading="lazy"
